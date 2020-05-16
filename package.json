@@ -1,0 +1,20 @@
+{
+  "name": "express-socker.io-streaming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/n-devs/express-socker.io-streaming.git",
+  "author": "Nutthapat Piasangka <my_nutthapat-26_@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-busboy": "^0.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "rtcmulticonnection-server": "^1.3.2",
+    "socket.io": "^2.3.0"
+  }
+}
